@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/terms", "destination": "/terms.html" },
+    { "source": "/((?!assets|favicon\\.png|opengraph\\.jpg|profile-avatar\\.png).*)", "destination": "/index.html" }
+  ]
+}
